@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        html, body {
+            margin: 0;
+            height: 100%;
+            overflow: scroll;
+        }
+        body {
+            background-image: url('assets/backgrounds/bg_contact.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <span class="big-circle"></span>
+    <div class="form">
+        <div class="contact-info">
+            <h3 class="title">Let's get in touch</h3>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                dolorum adipisci recusandae praesentium dicta!
+            </p>
+
+            <div class="info">
+                <div class="information">
+                    <img src="assets/icons/location.png" class="icon" alt="" />
+                    <p>Based in Belgium</p>
+                </div>
+                <div class="information">
+                    <img src="assets/icons/mail.png" class="icon" alt="" />
+                    <p>info@ccfantasy.com</p>
+                </div>
+                <div class="information">
+                    <img src="assets/icons/phone.png" class="icon" alt="" />
+                    <p>XXX-XXX-XXX</p>
+                </div>
+            </div>
+
+            <div class="social-media">
+                <p>Connect with us</p>
+                <div class="social-icons">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-pinterest-p"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+
+            <form action="index.html" autocomplete="off">
+                <h3 class="title">Contact us!</h3>
+                <div class="input-container">
+                    <input type="text" name="name" class="input" id="username" required />
+                    <label for="username">Username</label>
+                    <span>Username</span>
+                </div>
+                <div class="input-container">
+                    <input type="email" name="email" class="input" id="email" required/>
+                    <label for="email">Email</label>
+                    <span>Email</span>
+                </div>
+                <div class="input-container">
+                    <input type="tel" name="phone" class="input" id="phone"/>
+                    <label for="phone">Phone</label>
+                    <span>Phone</span>
+                </div>
+                <div class="input-container textarea">
+                    <textarea name="message" class="input" id="message" required></textarea>
+                    <label for="message">Message</label>
+                    <span>Message</span>
+                </div>
+                <input type="submit" value="Send" class="btn" />
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
